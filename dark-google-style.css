@@ -4,10 +4,11 @@ body{
     display:flex;
     flex-direction:column;
     justify-content: space-between;
-    background-color: rgb(12, 12, 15);
+    background-color: rgb(30, 30, 30);
     color:rgb(250, 250, 250);
-    font-weight:200;
+    
     font-size:15 px;
+    font-family: "sans-serif";
 }
 
 .header {
@@ -24,8 +25,14 @@ ul{
     margin: 20px;
 }
 
+.button-box{
+    display:flex;
+    gap: 20px;
+}
+a{
+    font-size: 25px;
 
-
+}
 .middle-box {
     display:flex;
     flex-direction: column;
@@ -33,8 +40,8 @@ ul{
     align-items: center;
 }
 img {
-    height: 100px;
-    width: 300px;
+    height: 92px;
+    width: 272px;
 }
 .footer {
     display:flex;
@@ -60,4 +67,5 @@ input {
     padding: 8px 24px;
     width: 400px;
     margin-bottom: 16px;
+    background-color:rgba(75, 75, 75, 0)   
 }
