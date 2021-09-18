@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    height: 100vh; /* fill the whole screen vertically */
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    background-color: rgb(32, 34, 36);
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+}
+
+ul{
+    display:flex; 
+    list-style-type:none;
+}
+
+ul li {
+    margin: 10px;
+}
+
+.middle-box {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    length: 500px;
+    width: 300px;
+}
+.footer {
+    display:flex;
+    justify-content: space-between;
+}
+
+.left-buttons{
+    display:flex;
+    padding:0px; /* remove default padding from lists */
+}
+
+.right-buttons{
+    display:flex;
+    padding:10px;
+}
+
+input {
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 8px 24px;
+    width: 400px;
+    margin-bottom: 16px;
+  }
