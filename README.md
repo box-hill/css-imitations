@@ -1,2 +1,2 @@
 # css-imitations
-Imitating various website layouts
+Imitating various website layouts to test my CSS knowledge
