@@ -4,22 +4,27 @@ body{
     display:flex;
     flex-direction:column;
     justify-content: space-between;
-    background-color: rgb(32, 34, 36);
+    background-color: rgb(12, 12, 15);
+    color:rgb(250, 250, 250);
+    font-weight:200;
+    font-size:15 px;
 }
 
 .header {
     display:flex;
     justify-content: space-between;
+    align-items:baseline;
+
 }
 
 ul{
     display:flex; 
     list-style-type:none;
+    column-gap: 50px;
+    margin: 20px;
 }
 
-ul li {
-    margin: 10px;
-}
+
 
 .middle-box {
     display:flex;
@@ -28,17 +33,20 @@ ul li {
     align-items: center;
 }
 img {
-    length: 500px;
+    height: 100px;
     width: 300px;
 }
 .footer {
     display:flex;
     justify-content: space-between;
+    background-color:rgb(24, 24, 29);
+    align-items:baseline;
 }
 
 .left-buttons{
     display:flex;
     padding:0px; /* remove default padding from lists */
+    
 }
 
 .right-buttons{
@@ -52,4 +60,4 @@ input {
     padding: 8px 24px;
     width: 400px;
     margin-bottom: 16px;
-  }
+}
